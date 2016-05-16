@@ -12,8 +12,14 @@ import UIKit
 
 class SecondViewController: UIViewController{
     
+    @IBAction func save(sender: UIBarButtonItem) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //
+        
     }
     
     override func didReceiveMemoryWarning() {

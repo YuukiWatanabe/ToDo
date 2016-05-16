@@ -156,15 +156,30 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="i9E-77-6cT"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="YvK-eu-c5R">
+                                            <connections>
+                                                <action selector="save:" destination="4Mz-ku-vXs" id="yuR-Q1-6Fw"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="VBW-Mz-Yql"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ee7-Iq-Qb3">
+                                <rect key="frame" x="100" y="285" width="400" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Ee7-Iq-Qb3" firstAttribute="centerY" secondItem="Wcd-Uc-UuD" secondAttribute="centerY" id="85P-or-fv6"/>
                             <constraint firstItem="sWG-wC-SGB" firstAttribute="leading" secondItem="Wcd-Uc-UuD" secondAttribute="leading" id="A8T-79-RRP"/>
+                            <constraint firstItem="Ee7-Iq-Qb3" firstAttribute="leading" secondItem="Wcd-Uc-UuD" secondAttribute="leading" constant="100" id="ALT-tb-UsD"/>
                             <constraint firstAttribute="trailing" secondItem="sWG-wC-SGB" secondAttribute="trailing" id="ar8-P4-nrF"/>
                             <constraint firstItem="sWG-wC-SGB" firstAttribute="top" secondItem="a2L-0b-lUH" secondAttribute="bottom" id="fj4-dv-fSr"/>
+                            <constraint firstAttribute="trailing" secondItem="Ee7-Iq-Qb3" secondAttribute="trailing" constant="100" id="wZD-rN-o4E"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -174,6 +189,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vsS-ff-vHp"/>
+        <segue reference="i9E-77-6cT"/>
     </inferredMetricsTieBreakers>
 </document>
