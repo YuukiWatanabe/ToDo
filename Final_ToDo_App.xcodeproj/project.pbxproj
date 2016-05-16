@@ -12,6 +12,8 @@
 		13F425011CE8627500134F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F424FF1CE8627500134F98 /* Main.storyboard */; };
 		13F425031CE8627500134F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F425021CE8627500134F98 /* Assets.xcassets */; };
 		13F425061CE8627500134F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F425041CE8627500134F98 /* LaunchScreen.storyboard */; };
+		13F4250E1CE86A2600134F98 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F4250D1CE86A2600134F98 /* SecondViewController.swift */; };
+		13F425121CE899B500134F98 /* AddToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F425111CE899B500134F98 /* AddToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		13F425021CE8627500134F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13F425051CE8627500134F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13F425071CE8627500134F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F4250D1CE86A2600134F98 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		13F425111CE899B500134F98 /* AddToDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				13F424FB1CE8627500134F98 /* AppDelegate.swift */,
 				13F424FD1CE8627500134F98 /* ViewController.swift */,
+				13F4250D1CE86A2600134F98 /* SecondViewController.swift */,
+				13F425111CE899B500134F98 /* AddToDo.swift */,
 				13F424FF1CE8627500134F98 /* Main.storyboard */,
 				13F425021CE8627500134F98 /* Assets.xcassets */,
 				13F425041CE8627500134F98 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F4250E1CE86A2600134F98 /* SecondViewController.swift in Sources */,
 				13F424FE1CE8627500134F98 /* ViewController.swift in Sources */,
 				13F424FC1CE8627500134F98 /* AppDelegate.swift in Sources */,
+				13F425121CE899B500134F98 /* AddToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				13F4250C1CE8627500134F98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
