@@ -21,10 +21,10 @@ class AddToDo: UIViewController{
         super.viewDidLoad()
     }
     
-    @IBAction func addItem(sender: AnyObject) {
+    @IBAction func addItem(_ sender: AnyObject) {
         todoItem.append(itemText.text!)
         itemText.text = ""
-        NSUserDefaults.standardUserDefaults().setObject(todoItem, forKey: "todoList")
+        UserDefaults.standard.set(todoItem, forKey: "todoList")
     }
     
     
@@ -32,11 +32,11 @@ class AddToDo: UIViewController{
         super.didReceiveMemoryWarning()
     }
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
     
-    func textFieldShouldReturn(textField: UITextField!) -> Bool {
+    func textFieldShouldReturn(_ textField: UITextField!) -> Bool {
         itemText.resignFirstResponder()
         return true
     }
